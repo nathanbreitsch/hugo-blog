@@ -1,0 +1,9 @@
+[submodule "hugo-theme-nix"]
+	path = hugo-theme-nix
+	url = https://github.com/LordMathis/hugo-theme-nix
+[submodule "themes/nix"]
+	path = themes/nix
+	url = https://github.com/LordMathis/hugo-theme-nix
+[submodule "themes/tranquilpeak"]
+	path = themes/tranquilpeak
+	url = https://github.com/kakawait/hugo-tranquilpeak-theme.git

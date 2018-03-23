@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "hugo server -w -v",
+    "build": "hugo -v",
+    "deploy": "aws s3 sync public/ s3://firefly-ninja --delete"
+  },
+  "author": "",
+  "license": "ISC"
+}
